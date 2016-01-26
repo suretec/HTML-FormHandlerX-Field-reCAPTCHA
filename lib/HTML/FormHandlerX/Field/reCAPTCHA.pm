@@ -8,7 +8,7 @@ use Carp;
 use Moose;
 extends 'HTML::FormHandler::Field';
 
-our $VERSION = '0.04';
+our $VERSION = '0.05';
 our $AUTHORITY = 'cpan:JJNAPIORK';
 
 has '+widget' => ( default => 'reCAPTCHA' );
